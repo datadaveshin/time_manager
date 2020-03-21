@@ -48,6 +48,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # Adds support for RSpec
+  gem 'rspec-rails', '~> 3.9', '>= 3.9.1'
+  # Adds support for Capybara system testing and selenium driver
+  gem 'capybara', '>= 2.15'
 end
 
 group :test do
